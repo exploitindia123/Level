@@ -1,0 +1,38 @@
+{
+    "6273094147": {
+        "unique_device_id": "Google|3e8b591b-9e84-4728-9ba8-87b066559b4c",
+        "brand": "Poco",
+        "model": "M2102J20SG",
+        "gpu_renderer": "Adreno (TM) 660",
+        "system_software": "Android OS 13 / API-33",
+        "screen_width": 1440,
+        "screen_height": 3200,
+        "screen_dpi": "336",
+        "memory": 5667,
+        "processor_details": "ARM64 FP ASIMD AES VMH | 2526 | 12",
+        "client_ip": "193.71.191.61",
+        "android_id": "344da9d8a394264e",
+        "gsf_id": "e352ce9d6ae17115",
+        "build_fingerprint": "poco/m2102j20sg/m2102j20sg:Android_OS_13/user/release-keys",
+        "serial_number": "f9bf6360eba401a4",
+        "hardware_id": "8fe42e4274504aa6"
+    },
+    "6305923568": {
+        "unique_device_id": "Google|5d2ad99b-e59d-454a-ba15-16505040de26",
+        "brand": "OPPO",
+        "model": "CPH2611",
+        "gpu_renderer": "Adreno (TM) 720",
+        "system_software": "Android OS 14 / API-34",
+        "screen_width": 1440,
+        "screen_height": 3200,
+        "screen_dpi": "357",
+        "memory": 6413,
+        "processor_details": "ARM64 FP ASIMD AES VMH | 3011 | 11",
+        "client_ip": "162.51.108.247",
+        "android_id": "6c6d60c9aedc5d44",
+        "gsf_id": "439c68f4ed31e1ac",
+        "build_fingerprint": "oppo/cph2611/cph2611:Android_OS_14/user/release-keys",
+        "serial_number": "a8beacaf0904e8cd",
+        "hardware_id": "649e5e3a5ed420e7"
+    }
+}
