@@ -211,8 +211,25 @@ async def handle_refresh_account(request: web.Request) -> web.Response:
         return web.json_response({"status": "error", "error": str(e)})
 
 
-async def start_web_dashboard(host: str = "0.0.0.0", port: int = 5000):
+import os
+
+async def start_web_dashboard(
+    host: str = "0.0.0.0",
+    port: int | None = None
+):
+    port = port or int(os.getenv("PORT", "5000"))
+
     app = web.Application()
+
+    # your routes...
+
+    runner = web.AppRunner(app)
+    await runner.setup()
+
+    site = web.TCPSite(runner, host, port)
+    await site.start()
+
+    print(f"Dashboard running on {host}:{port}")
     app.router.add_get("/", handle_index)
     app.router.add_get("/api/stats", handle_get_stats)
     app.router.add_post("/api/account/add", handle_add_account)
